@@ -1397,22 +1397,22 @@ PrefabInstance:
     - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
@@ -1427,12 +1427,32 @@ PrefabInstance:
     - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: m_AnchoredPosition.x
+      value: 929
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -558
+      objectReference: {fileID: 0}
+    - target: {fileID: 4148454540590985199, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: sprites.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _centerRange
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: _appearanceDuration
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _appearanceLocation
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}

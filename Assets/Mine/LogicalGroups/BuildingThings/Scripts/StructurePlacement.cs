@@ -42,7 +42,7 @@ public class StructurePlacement : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("start");
+        // Debug.Log("start");
         // Create the initial ghost object
         ghostStructure = Instantiate(ghostStructurePrefab);
         // ghostStructure.SetActive(false); // Hide it initially
