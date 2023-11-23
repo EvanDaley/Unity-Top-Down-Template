@@ -1394,70 +1394,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: RadialMenuVersion1
       objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+    - target: {fileID: 3786381880183252498, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
+      propertyPath: _applyRange
+      value: 0.03
       objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
+      propertyPath: topLevelMenuSprites.Array.size
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
+      propertyPath: topLevelMenuSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: -8100999528106053950, guid: 69a74d879e969d8409d9bf5e6c86c57c,
+        type: 3}
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: topLevelMenuSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: -3914155176887880115, guid: 69a74d879e969d8409d9bf5e6c86c57c,
+        type: 3}
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: constructionMenuSprites.Array.size
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+      propertyPath: constructionMenuSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300002, guid: 704c91aaf5f4d2849870d811230cfc61,
         type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 1354.617
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1530.5237
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 929
-      objectReference: {fileID: 0}
-    - target: {fileID: 2455223367459638497, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -558
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148454540590985199, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
-        type: 3}
-      propertyPath: sprites.Array.size
-      value: 0
+      propertyPath: _applyRange
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
-      propertyPath: _centerRange
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
-        type: 3}
-      propertyPath: _appearanceDuration
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
-        type: 3}
-      propertyPath: _appearanceLocation
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
-        type: 3}
-      propertyPath: _disppearanceDuration
-      value: 0.1
+      propertyPath: _pieceCount
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
