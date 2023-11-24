@@ -8,6 +8,7 @@ public class RadialMenuControllerEditor : Editor
     SerializedProperty topLevelMenuSprites;
     SerializedProperty constructionMenuSprites;
     SerializedProperty weaponMenuSprites;
+    SerializedProperty turretMenuSprites;
 
     private void OnEnable()
     {
@@ -15,6 +16,7 @@ public class RadialMenuControllerEditor : Editor
         topLevelMenuSprites = serializedObject.FindProperty("topLevelMenuSprites");
         constructionMenuSprites = serializedObject.FindProperty("constructionMenuSprites");
         weaponMenuSprites = serializedObject.FindProperty("weaponMenuSprites");
+        turretMenuSprites = serializedObject.FindProperty("turretMenuSprites");
     }
 
     public override void OnInspectorGUI()
@@ -33,10 +35,9 @@ public class RadialMenuControllerEditor : Editor
         EditorGUILayout.LabelField("PREVIEW", EditorStyles.boldLabel);
 
         DisplaySpriteList(topLevelMenuSprites, "Top Level Menu Sprites");
-
         DisplaySpriteList(constructionMenuSprites, "Construction Menu Sprites");
-
         DisplaySpriteList(weaponMenuSprites, "Weapon Menu Sprites");
+        DisplaySpriteList(turretMenuSprites, "Turret Menu Sprites");
 
         serializedObject.ApplyModifiedProperties();
     }

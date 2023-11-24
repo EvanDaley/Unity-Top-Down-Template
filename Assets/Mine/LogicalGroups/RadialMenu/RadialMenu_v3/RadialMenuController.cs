@@ -10,6 +10,7 @@ namespace Rito.RadialMenu_v3.Test
             public RadialMenu topLevelMenu;
             public RadialMenu constructionMenu;
             public RadialMenu weaponMenu;
+            public RadialMenu turretMenu;
 
             public KeyCode key = KeyCode.Mouse1;
 
@@ -17,12 +18,14 @@ namespace Rito.RadialMenu_v3.Test
             public Sprite[] topLevelMenuSprites;
             public Sprite[] constructionMenuSprites;
             public Sprite[] weaponMenuSprites;
+            public Sprite[] turretMenuSprites;
 
             private void Start()
             {
                 topLevelMenu.SetPieceImageSprites(topLevelMenuSprites);
                 constructionMenu.SetPieceImageSprites(constructionMenuSprites);
                 weaponMenu.SetPieceImageSprites(weaponMenuSprites);
+                turretMenu.SetPieceImageSprites(turretMenuSprites);
             }
 
             private void Update()
@@ -54,6 +57,11 @@ namespace Rito.RadialMenu_v3.Test
                     {
                         OpenMenu("Construction");
                     }
+                    
+                    if (menu.GetSelectedIndex() == 2)
+                    {
+                        OpenMenu("Turret");
+                    }
                 }
             }
 
@@ -68,6 +76,12 @@ namespace Rito.RadialMenu_v3.Test
                 if (menuName == "Weapon")
                 {
                     weaponMenu.Show();
+                }
+
+                
+                if (menuName == "Turret")
+                {
+                    turretMenu.Show();
                 }
             }
     }

@@ -1569,6 +1569,26 @@ PrefabInstance:
       propertyPath: _pieceCount
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3786381880183252498, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _appearanceLocation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681057248486241339, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _pieceDist
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681057248486241339, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _pieceCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681057248486241339, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _appearanceLocation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: turretMenu
@@ -1577,6 +1597,11 @@ PrefabInstance:
     - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: turretMenuSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: weaponMenuSprites.Array.size
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
@@ -1589,13 +1614,13 @@ PrefabInstance:
         type: 3}
       propertyPath: turretMenuSprites.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: f7a60e493164c2541bdf3318e91f911b,
+      objectReference: {fileID: 21300000, guid: 4d35367003360be4bb4b1c33799014d5,
         type: 3}
     - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
       propertyPath: turretMenuSprites.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 5d98d8d87bdb9e64bad829375d4f2d86,
+      objectReference: {fileID: 21300000, guid: f7a60e493164c2541bdf3318e91f911b,
         type: 3}
     - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
@@ -1614,6 +1639,18 @@ PrefabInstance:
       propertyPath: turretMenuSprites.Array.data[5]
       value: 
       objectReference: {fileID: 21300000, guid: f85fbfe77152c934fb649a05fa1deb3f,
+        type: 3}
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: weaponMenuSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: a138a5b120e1a004f9812d645961be95,
+        type: 3}
+    - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: weaponMenuSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3b42a08123725684a850a9049d05dea2,
         type: 3}
     - target: {fileID: 6034572804698190548, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
         type: 3}
@@ -1692,6 +1729,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: cd282e6f0eeb1084fba5a1e117c0497e,
         type: 3}
+    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _pieceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7957496529105695538, guid: b60f79f1abcca5943bcb6f6bdb3bf071,
+        type: 3}
+      propertyPath: _appearanceLocation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2860,7 +2907,7 @@ GameObject:
   - component: {fileID: 2106872535}
   - component: {fileID: 2106872534}
   m_Layer: 5
-  m_Name: TurretMenu
+  m_Name: DefenseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2899,7 +2946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7479e11c29522a34d9bcc736b2c8464d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pieceCount: 4
+  _pieceCount: 3
   _appearanceDuration: 0.1
   _disppearanceDuration: 0.1
   _pieceDist: 185
