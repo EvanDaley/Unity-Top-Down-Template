@@ -98,7 +98,7 @@ namespace Rito.RadialMenu_v3.Editor
                 EditorGUILayout.IntSlider(_pieceCount, 2, 16, "Piece Count");
             }
 
-            EditorGUILayout.Slider(_pieceDist, 100f, 300f, "Piece Distance From Center");
+            EditorGUILayout.Slider(_pieceDist, 100f, 700f, "Piece Distance From Center");
             EditorGUILayout.Slider(_centerRange, 0.01f, 0.3f, "Center Range");
             EditorGUILayout.Slider(_applyRange, 0.01f, 0.9f, "Apply Range");
 
