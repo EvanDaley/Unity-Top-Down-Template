@@ -430,6 +430,8 @@ namespace MoreMountains.TopDownEngine
 					_reticle.gameObject.MMGetComponentNoAlloc<MMUIFollowMouse>().TargetCanvas = GUIManager.Instance.MainCanvas;
 				}
 			}
+
+			_reticle.gameObject.tag = "Reticle";
 		}
 
 		/// <summary>
@@ -459,6 +461,15 @@ namespace MoreMountains.TopDownEngine
 				// if we're in follow mouse mode and the current control scheme is mouse, we move the reticle to the mouse's position
 				if (ReticleAtMousePosition && AimControl == AimControls.Mouse)
 				{
+					if (SnapIncrement > 0) {
+						// Round the x and z coordinates to the nearest whole number
+						float roundedX = Mathf.Round(_reticlePosition.x);
+						float roundedZ = Mathf.Round(_reticlePosition.z);
+
+						// TODO: Need to set Y based on ground height at cursor
+						_reticlePosition = new Vector3(roundedX, 0, roundedZ);
+					}
+
 					_reticle.transform.position = MMMaths.Lerp(_reticle.transform.position, _reticlePosition, 0.3f, Time.deltaTime);
 				}
 			}

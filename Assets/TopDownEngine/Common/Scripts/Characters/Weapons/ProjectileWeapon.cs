@@ -25,6 +25,10 @@ namespace MoreMountains.TopDownEngine
 		[Tooltip("the number of projectiles to spawn per shot")]
 		public int ProjectilesPerShot = 1;
 
+		[Tooltip("the projectile will spawn at the cursor location and rotation")]
+		public bool ProjectileStartsAtCursor = false;
+		private GameObject cursorObject;
+
 		[Header("Spawn Transforms")]
 		/// a list of transforms that can be used a spawn points, instead of the ProjectileSpawnOffset. Will be ignored if left emtpy
 		[Tooltip("a list of transforms that can be used a spawn points, instead of the ProjectileSpawnOffset. Will be ignored if left emtpy")]
@@ -255,6 +259,13 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		public virtual void DetermineSpawnPosition()
 		{
+			if (ProjectileStartsAtCursor == true)
+			{
+				cursorObject = GameObject.FindGameObjectWithTag("Reticle");
+				SpawnPosition = cursorObject.transform.position;
+				return;
+			}
+
 			if (Flipped)
 			{
 				if (FlipWeaponOnCharacterFlip)

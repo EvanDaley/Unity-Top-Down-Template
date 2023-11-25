@@ -83,6 +83,9 @@ namespace MoreMountains.TopDownEngine
 		[Tooltip("if set to false, the reticle won't be added and displayed")]
 		public bool DisplayReticle = true;
 
+		[Tooltip("if set to false, the reticle won't be added and displayed")]
+		public float SnapIncrement = 0f;
+
 		[Header("CameraTarget")]
 		/// whether the camera target should be moved towards the reticle to provide a better vision of the possible target. If you don't have a reticle, it'll be moved towards your aim direction.
 		[Tooltip("whether the camera target should be moved towards the reticle to provide a better vision of the possible target. If you don't have a reticle, it'll be moved towards your aim direction.")]
